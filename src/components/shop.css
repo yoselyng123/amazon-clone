@@ -1,0 +1,94 @@
+.shop {
+    background-color: #f2f2f4;
+    width: 84vw;
+    height: 84vh;
+    padding: 1.5rem;
+}
+
+.shop__banner {
+    display: flex;
+    background-image: url('https://i.ibb.co/JnmTD12/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: gray;
+    height: 17%;
+    border-radius: 1rem;
+    padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+    flex: 1;
+    margin-bottom: 1.6rem;
+}
+
+.shop__banner > a {
+    text-decoration: none;
+    color: #ff9901;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    margin-top: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.shop__popularCategories > h2 {
+    margin-bottom: 1rem;
+}
+
+.popularCategories__list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.6rem;
+}
+
+.categorie__item {
+    background-color: #ffffff;
+    padding: 1.25rem;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.categorie__item > .MuiSvgIcon-root {
+    color: grey;
+    font-size: 2.2rem;
+}
+
+.shop__hotDeals {
+    width: 100%;
+}
+
+.list__products {
+    display: flex;
+    list-style: none;
+    width: max-content;
+    transform: translate(0);
+    transition: all 1s ease;
+}
+
+.hotDeals__top {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.hotDeals__arrows {
+    display: flex;
+    margin-left: auto;
+}
+
+.arrow {
+    background-color: white;
+    padding: 0.4rem 0.5rem;
+    color: gray;
+    margin-left: 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.arrow > .MuiSvgIcon-root {
+    color: grey;
+    font-size: 1rem;
+}
+
+.arrow--disabled {
+    opacity: 0.5;
+    cursor: auto;
+}
